@@ -11,6 +11,7 @@
 		2FD4B97F2CAF96EB008CEAB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4B97E2CAF96EB008CEAB8 /* ContentView.swift */; };
 		2FD4B9812CAF96EC008CEAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4B9802CAF96EC008CEAB8 /* Assets.xcassets */; };
 		2FD4B9842CAF96EC008CEAB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4B9832CAF96EC008CEAB8 /* Preview Assets.xcassets */; };
+		2FD4B98C2CAFCD82008CEAB8 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4B98B2CAFCD82008CEAB8 /* FoodModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2FD4B97E2CAF96EB008CEAB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FD4B9802CAF96EC008CEAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD4B9832CAF96EC008CEAB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FD4B98B2CAFCD82008CEAB8 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2FD4B97C2CAF96EB008CEAB8 /* CSS545_HW1App.swift */,
 				2FD4B97E2CAF96EB008CEAB8 /* ContentView.swift */,
+				2FD4B98B2CAFCD82008CEAB8 /* FoodModel.swift */,
 				2FD4B9802CAF96EC008CEAB8 /* Assets.xcassets */,
 				2FD4B9822CAF96EC008CEAB8 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD4B98C2CAFCD82008CEAB8 /* FoodModel.swift in Sources */,
 				2FD4B97F2CAF96EB008CEAB8 /* ContentView.swift in Sources */,
 				2FD4B97D2CAF96EB008CEAB8 /* CSS545_HW1App.swift in Sources */,
 			);
