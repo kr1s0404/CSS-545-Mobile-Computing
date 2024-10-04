@@ -7,15 +7,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+struct ContentView: View 
+{
+    var body: some View 
+    {
+        NavigationStack
+        {
+            List(Food.foods) { food in
+                NavigationLink(value: food) {
+                    FoodLabelView(food: food)
+                }
+            }
+            .navigationTitle("Menu")
+            .navigationDestination(for: Food.self, destination: { FoodDetailView(food: $0) })
         }
-        .padding()
     }
 }
 
