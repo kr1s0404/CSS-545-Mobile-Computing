@@ -76,7 +76,7 @@ To measure success by user retention, the app needs to keep users coming back re
 
 > - **Push Notifications:** The settings menu includes notification preferences, allowing users to receive reminders for their daily card, tarot readings, or personalized messages. This can prompt users to re-engage with the app regularly.
 
-###Public Good
+### Public Good
 To achieve the goal of providing Public Good by helping users find comfort, reflection, or daily motivation, the app should focus on delivering meaningful and supportive experiences:
 
 **Reflection and Self-Discovery:**
