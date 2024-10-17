@@ -17,6 +17,8 @@ Version 1.0
 
 # UX Flowchart 
 
+**[A figma link to play with the flowchart](https://www.figma.com/proto/YQS5PNpNTgdta5AhV98Tqp/DailyTarot?node-id=1-962&node-type=frame&t=IdtdU7BisZsRaArM-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A962)**
+
 ![ux flowchart image](
 https://raw.githubusercontent.com/kr1s0404/CSS-545-Mobile-Computing/refs/heads/Initial-Mockup/CSS545-InitialMockup/ux-flowchart.png)
 
@@ -45,19 +47,7 @@ https://raw.githubusercontent.com/kr1s0404/CSS-545-Mobile-Computing/refs/heads/I
     - The app sends a request to the AI service with details about the selected cards and the user’s question.
     - The AI returns a personalized interpretation for the reading.
     - The app displays the AI-generated interpretation, clearly associating it with each card in the spread.
-7. User Saves or Shares the Reading
-    - The user has options to save the reading in the app’s history for future reference.
-    - The app saves the reading details (cards, interpretation, user question) seamlessly.
-    - The user can share the reading via social media or messaging apps if desired.
-8. User Reviews Reading History
-    - The user navigates to the "History" tab to review saved readings.
-    - The app displays a list of past readings with relevant dates and brief summaries.
-    - The user can tap on a reading to view the detailed interpretation and revisit the original question and card spread.
-9. User Accesses and Adjusts Settings
-    - The user navigates to the "Settings" tab from the bottom navigation bar.
-    - The app allows adjustments to notification preferences, dark/light mode, and other personalization options.
-    - Changes are saved immediately, providing a seamless experience.
-10. User Closes the App
+7. User Closes the App
     - The user exits the app, and all user data (saved readings, settings) are retained for the next session.
 
 # Define Success Criteria 
