@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @Model
-final class MediaItem
+final class MediaItem: Identifiable, Hashable
 {
     @Attribute(.unique) var id: UUID
     var name: String
@@ -19,5 +19,13 @@ final class MediaItem
         self.id = UUID()
         self.name = name
         self.data = data
+    }
+    
+    static func == (lhs: MediaItem, rhs: MediaItem) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
     }
 }
