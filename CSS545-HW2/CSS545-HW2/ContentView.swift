@@ -6,16 +6,24 @@
 //
 
 import SwiftUI
+import SwiftData
+import PhotosUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+struct ContentView: View
+{
+    var body: some View
+    {
+        TabView {
+            PhotoListView()
+                .tabItem {
+                    Label("Photos", systemImage: "photo.on.rectangle")
+                }
+            
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
+                }
         }
-        .padding()
     }
 }
 
