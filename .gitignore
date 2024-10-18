@@ -5,6 +5,9 @@
 ## User settings
 xcuserdata/
 
+## Mac Cache
+.DS_Store
+
 ## Obj-C/Swift specific
 *.hmap
 
