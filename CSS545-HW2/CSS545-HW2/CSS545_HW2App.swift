@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
-struct CSS545_HW2App: App {
-    var body: some Scene {
-        WindowGroup {
+struct CSS545_HW2App: App 
+{
+    var body: some Scene 
+    {
+        WindowGroup 
+        {
             ContentView()
         }
+        .modelContainer(for: PhotoItem.self)
     }
 }
