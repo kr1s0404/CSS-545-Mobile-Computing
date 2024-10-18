@@ -1,5 +1,5 @@
 //
-//  MediaItemView.swift
+//  MediaItem.swift
 //  CSS545-HW2
 //
 //  Created by Kris on 10/18/24.
