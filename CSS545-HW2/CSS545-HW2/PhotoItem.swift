@@ -1,5 +1,5 @@
 //
-//  MediaItem.swift
+//  PhotoItem.swift
 //  CSS545-HW2
 //
 //  Created by Kris on 10/18/24.
@@ -9,19 +9,19 @@ import SwiftUI
 import SwiftData
 
 @Model
-final class MediaItem: Identifiable, Hashable
+final class PhotoItem: Identifiable, Hashable
 {
     @Attribute(.unique) var id: UUID
-    var name: String
     var data: Data
+    var caption: String
     
-    init(name: String, data: Data) {
+    init(data: Data, caption: String) {
         self.id = UUID()
-        self.name = name
         self.data = data
+        self.caption = caption
     }
     
-    static func == (lhs: MediaItem, rhs: MediaItem) -> Bool {
+    static func == (lhs: PhotoItem, rhs: PhotoItem) -> Bool {
         lhs.id == rhs.id
     }
     
