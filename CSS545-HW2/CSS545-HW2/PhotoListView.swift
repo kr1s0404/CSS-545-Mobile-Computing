@@ -11,6 +11,8 @@ import PhotosUI
 
 struct PhotoListView: View
 {
+    @AppStorage("isDarkMode") private var isDarkMode = false
+    
     @Environment(\.modelContext) private var modelContext
     
     @Query private var photoItems: [PhotoItem]
@@ -66,6 +68,7 @@ struct PhotoListView: View
                 .presentationDetents([.medium])
             }
         }
+        .preferredColorScheme(isDarkMode ? .dark : .light)
     }
     
     func addPhotoItem(from item: PhotosPickerItem) async {
